@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Jacques+Francois+Shadow&family=Londrina+Sketch&family=Nunito:wght@300;400;500;600;700&family=Orbitron:wght@400;500&family=Rubik+Distressed&family=Teko:wght@400;500;600;700&family=Zen+Dots&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Jacques+Francois+Shadow&family=Londrina+Sketch&family=Nunito:wght@300;400;500;600;700&family=Orbitron:wght@400;500&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Teko:wght@400;500;600;700&family=Zen+Dots&display=swap'); 
 *{
     margin:0;
     padding:0;
@@ -14,7 +14,7 @@
     justify-content:space-between;
     position:fixed;
     z-index:50;
-    background-color: #000;
+    background-color: linear-gradient(to right,rgba(0,0,0,1) 0%,rgba(0,0,0,0.7)70%,rgba(0,0,0,0.7) 70%,rgba(0,0,0,0.7) 100%);
     
 }
 .nav-1{
@@ -72,16 +72,40 @@ nav li a:hover{
 /*End of Header Section*/
 /*Start of Cover Section*/
 .text{
-    margin-top:400px;
+    margin-top:200px;
     margin-left:45px;
 }
 #Cover .text h5{
-    font-family: 'Londrina Sketch', cursive;
-    color:#FAED26;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-weight: 400;
+    color:transparent;
     font-size:70px;
-
-
+    animation:text-reveal .7s forwards;
+    
 }
+#Cover .text h5:nth-child(1){
+    animation-delay:1s ;
+}
+#Cover .text h5:nth-child(2){
+    animation-delay:2s ;
+}
+#Cover .text h5:nth-child(3){
+    animation-delay:3s ;
+}
+#Cover .text p{
+    font-family: 'Rubik 80s Fade', cursive;
+    font-weight: 400;
+    color:transparent;
+    font-size:35px;
+    animation:text-reveal .7s forwards;
+    animation-delay:4s;
+}
+@keyframes text-reveal{
+    100%{
+        color:#FAED26;
+    }
+}
+
 #Cover{
     border:0.01px solid;
     height:568px;
@@ -94,8 +118,8 @@ nav li a:hover{
     position:absolute;
     left:0;
     top:0;
-    background-color: #46344e;
-    opacity:0.8;
+    background: linear-gradient(to right,rgba(0,0,0,1) 0%,rgba(0,0,0,0.7)60%,rgba(0,0,0,0.7) 60%,rgba(0,0,0,0.7) 100%);
+    
     height:100%;
     width:100%;
    
