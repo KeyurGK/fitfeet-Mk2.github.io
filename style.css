@@ -70,6 +70,40 @@ nav li a:hover{
 
 
 /*End of Header Section*/
+#event{
+    position:absolute;
+    top:520px;
+    margin-left:525px;
+
+    color:white;
+    z-index:100;
+}
+#event .btn{
+    position:relative;
+    margin-bottom:10000px;
+    color:#FAED26;
+    border:2px solid #FAED26;
+    font-size:18px;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-weight:500;
+    width:200px;
+    padding:10px;
+    animation:ping .7s infinite;
+   
+    transition: background-color 1s;
+    transition: color 1s;;
+}
+@keyframes ping{
+    0%{
+        background:#000;
+        color:#FAED26;
+    }
+    100%{
+        background:#FAED26;
+        color:#000;
+    }
+}
 /*Start of Cover Section*/
 .text{
     margin-top:200px;
@@ -551,4 +585,20 @@ nav li a:hover{
 }
 /*Endof Footer Section*/
 
+@media only screen and (max-width:800px){
+    #header .nav-1 {
+       
+        position:absolute;
+        top:70px;
+        left:0;
+        background:#FAED26;
+        width:100px;
+       
+    }
+    #Cover{
+        width:500px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
 
+}
