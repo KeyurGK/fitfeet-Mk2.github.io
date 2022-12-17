@@ -215,64 +215,9 @@ nav li a:hover{
      
  }
 /*End of About Section*/
-/*Start of Gallery Section*/
-#Gallery{
-    background-color: #46344e;
-    opacity:0.9;
-
-   
-  }
-#Gallery .row{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    height:550px;
-    
-}
-.card-1 img,.card-2 img,.card-3 img{
-    margin-top:140px;
-    margin-bottom:50px;
-    width:375px;
-    height:300px;
-    border-radius:5px;
-    box-shadow:10px 10px 10px 0px; 
-    cursor:pointer;
-    transition:transform 0.5s linear;
-    z-index:1000;
-}
-.card-3 img:hover,.card-1 img:hover{
-   transform:translateY(10px);
-}
-.card-2 img:hover{
-    transform:translateY(-10px);
-}
-#Gallery a{
-    text-decoration:none;
-    font-size:14px;
-   
-}
-#Gallery .btn{
-    position:relative;
-    margin-left:600px;
-    bottom:50px;
-    color:#FAED26;
-    border:2px solid #FAED26;
-    font-size:18px;
-    text-transform: uppercase;
-    font-weight:500;
-    width:100px;
-    padding:10px;
-    
-}
-#Gallery .btn:hover{
-   color:#46344e;
-   background-color: #FAED26;
-    
-}
-/*End of Gallery Section*/
 /*Start of Activities Section*/
 #Activities{
-    background-color: #46344e;
+    background-color: #000;
     opacity:0.9;
     
 }
@@ -284,7 +229,9 @@ nav li a:hover{
 
 #Activities .row .col-1{
     flex-basis:60%;
-    margin-top:70px;
+    margin-top:120px;
+    padding-top:35px;
+    padding-right:60px;
     display:flex;
     flex-direction:column;
 }
@@ -294,7 +241,7 @@ nav li a:hover{
 #Activities .row .col-1 .row-1 img{
     width:450px;
     height:250px;
-    animation:scale-1 5s infinite;
+    
 }
 
 #Activities .row .col-1 .row-2{
@@ -309,7 +256,7 @@ nav li a:hover{
     width:220px;
     height:150px;
     margin-left:10px;
-    animation:scale-2 5s infinite;
+   
     transition:transform 2s linear;
 
 }
@@ -318,8 +265,9 @@ nav li a:hover{
 }
 #Activities .row .col-2{
     flex-basis:30%;
-    margin-top:100px;
+    margin-top:150px;
     margin-bottom:100px;
+   
     display:flex;
     flex-direction:column;
     justify-content: space-around;
@@ -373,10 +321,142 @@ nav li a:hover{
     }
 }
 /*End of Activities Section*/
+/*Start of Training Section*/
+#Training{
+    height:568px;
+    background-image: url(./images/image-13.jpg);
+    background-size:contain;
+    background-repeat:no-repeat;
+    position:relative;
+    z-index:1;
+    object-fit:cover;
+}
+#Training::after{
+    content:'';
+    position:absolute;
+    left:0;
+    top:0;
+    background: linear-gradient(to left,rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.7)80%,rgba(0,0,0,0.7) 80%,rgba(0,0,0,0.7) 100%);
+    height:100%;
+    width:100%;
+    z-index:-1;
+}
+#Training .row{
+    
+    position:relative;
+    top:40%;
+   
+}
+#Training .row .row-1 h1{
+    color:#FAED26;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-weight:400;
+    font-size:70px;
+    margin-left:130px;
+}
+#Training .row .row-2 ul {
+    display:flex;
+    margin-top:20px;
+    margin-right:40px;
+    
+}
+#Training .row .row-2 ul li{
+    list-style: none;
+    color:#FAED26;
+    font-family: 'Rubik 80s Fade', cursive;
+    font-weight:400;
+    font-size:30px;
+    letter-spacing: 1px;
+    margin-left:100px;
+}
+#Training .row .row-3{
+    
+    margin-top:50px;
+    margin-left:30%;
+}
+#Training .row .row-3 a{
+
+    text-decoration:none;
+    color:yellow;
+    margin-left:175px;
+ }
+ #Training .row .row-3 .btn{
+     position:relative;
+     margin-bottom:10000px;
+     color:#FAED26;
+     border:2px solid #FAED26;
+     font-size:18px;
+     text-transform: uppercase;
+     font-weight:500;
+     width:100px;
+     padding:10px;
+ }
+ #Training .row .row-3 .btn:hover{
+     color:#000;
+     background-color: #FAED26;
+      
+  }
+/*End of Training Section*/
+/*Start of Gallery Section*/
+#Gallery{
+    background-color: #000;
+    opacity:0.9;
+
+   
+  }
+#Gallery .row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    height:550px;
+    
+    
+}
+.card-1 img,.card-2 img,.card-3 img{
+    margin-top:150px;
+    margin-bottom:50px;
+    width:375px;
+    height:250px;
+    border-radius:5px;
+    box-shadow:10px 10px 10px 0px; 
+    cursor:pointer;
+    transition:transform 0.5s linear;
+    z-index:1000;
+}
+.card-3 img:hover,.card-1 img:hover{
+   transform:translateY(10px);
+}
+.card-2 img:hover{
+    transform:translateY(-10px);
+}
+#Gallery a{
+    text-decoration:none;
+    font-size:14px;
+   
+}
+#Gallery .btn{
+    position:relative;
+    margin-left:600px;
+    bottom:50px;
+    color:#FAED26;
+    border:2px solid #FAED26;
+    font-size:18px;
+    text-transform: uppercase;
+    font-weight:500;
+    width:100px;
+    padding:10px;
+    
+}
+#Gallery .btn:hover{
+   color:#46344e;
+   background-color: #FAED26;
+    
+}
+/*End of Gallery Section*/
 
 /*Start of Footer Section*/
 #Footer{
-    background-color: #46344e;
+    background-color: #000;
     opacity:0.9;
 
 }
@@ -384,7 +464,9 @@ nav li a:hover{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    height:521px;
+    
+    padding-top:10px;
+    height:500px;
     
 }
 #Footer .row-1 .col-1{
@@ -433,7 +515,7 @@ nav li a:hover{
     padding:10px;
 }
 #Footer .row-1 .col-1 form .btn:hover{
-    color:#46344e;
+    color:#000;
     background-color: #FAED26;
 }
 #Footer .row-1 .col-2{
@@ -442,12 +524,15 @@ nav li a:hover{
 }
 #Footer .row-1 .col-2 .details{
     margin-left:60px;
-    margin-top:70px;
+    margin-top:100px;
     color:#FAED26;
+}
+#Footer .row-1 .col-2 .details p{
+    font-size:15px;
 }
 #Footer .row-1 .col-2 .map iframe{
     margin-left:60px;
-    margin-top:25px;
+    margin-top:10px;
 }
 #Footer .row-2{
     display:flex;

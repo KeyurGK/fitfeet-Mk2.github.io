@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Jacques+Francois+Shadow&family=Londrina+Sketch&family=Nunito:wght@300;400;500;600;700&family=Orbitron:wght@400;500&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Teko:wght@400;500;600;700&family=Zen+Dots&display=swap'); 
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/*Start of Header Section*/
+#header{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    background-color: #000;
+    border:2px solid;
+}
+.nav-1{
+    flex-basis:41%;
+    margin-top:45px;
+}
+.logo img{
+    width:150px;
+    height:150px;
+    margin-top:2px;
+    padding:30px;
+    margin-left:25px;
+    transition:transform 0.5s;
+    
+}
+.logo img:hover{
+    transform:scale(1.5);
+}
+.nav-2{
+    flex-basis:45%;
+    margin-top:45px;
+}
+nav{
+    display:flex;
+    width:1050px;
+   
+    
+}
+nav li{
+    list-style: none;
+    margin-top:15px;
+    
+   
+}
+nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#FAED26;
+    font-family: 'Teko', sans-serif;
+    font-size:30px;
+    padding:10px;
+    margin-left:30px;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+nav li a:hover{
+    color:#000;
+    background-color: #FAED26;
+    
+}
+
+
+/*End of Header Section*/
+
+/*Start of About Section*/
+#Training {
+    background-color: #FAED26;
+}
+#Training table{
+    margin-left:20%;
+    
+}
+#Training table,tr,th,td{
+    border:1px solid;
+    padding:10px;
+}
+
+/*End of About Section*/
+/*Start of Footer Section*/
+#Footer{
+   
+    background-color: #000;
+    opacity:0.9;
+
+}
+#Footer .row-2{
+    display:flex;
+    margin-left:200px;
+}
+#Footer .row-2 .icons a .fa-square-facebook,#Footer .row-2 .icons a .fa-square-instagram,#Footer .row-2 .icons a .fa-square-twitter,#Footer .row-2 .icons a .fa-square-youtube{
+    color:#FAED26;
+    margin-left:5px;
+}
+#Footer .row-2  p{
+    color:#fff;
+    font-size:15px;
+    margin-left:540px;
+    margin-top:15px;
+    
+}
+/*Endof Footer Section*/
