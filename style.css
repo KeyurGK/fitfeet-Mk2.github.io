@@ -74,8 +74,6 @@ nav li a:hover{
     position:absolute;
     top:520px;
     margin-left:525px;
-
-    color:white;
     z-index:100;
 }
 #event .btn{
@@ -585,20 +583,3 @@ nav li a:hover{
 }
 /*Endof Footer Section*/
 
-@media only screen and (max-width:800px){
-    #header .nav-1 {
-       
-        position:absolute;
-        top:70px;
-        left:0;
-        background:#FAED26;
-        width:100px;
-       
-    }
-    #Cover{
-        width:500px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-
-}
