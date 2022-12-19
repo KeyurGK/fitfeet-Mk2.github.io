@@ -13,15 +13,12 @@ body{
 #header{
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-between;
+    justify-content:space-around;
     background-color: #000;
     border:2px solid;
     
 }
-.nav-1{
-    flex-basis:41%;
-    margin-top:45px;
-}
+
 .logo img{
     width:150px;
     height:150px;
@@ -34,21 +31,19 @@ body{
 .logo img:hover{
     transform:scale(1.5);
 }
-.nav-2{
-    flex-basis:45%;
-    margin-top:45px;
-}
+
 nav{
     display:flex;
-    width:1050px;
-   
+    margin-left:0px;
+    flex-basis: 80%;
+    margin-top:45px;
     
 }
+
 nav li{
     list-style: none;
     margin-top:15px;
-    
-   
+    margin-left: 100px;;
 }
 nav li a{
     text-decoration: none;
@@ -57,7 +52,7 @@ nav li a{
     font-family: 'Teko', sans-serif;
     font-size:30px;
     padding:10px;
-    margin-left:30px;
+    margin-left:0px;
     transition: color 0.5s;
     transition: background-color 0.5s;
 }
@@ -95,6 +90,36 @@ nav li a:hover{
     font-family: 'Arial';
     line-height:30px;
     text-align:center;
+}
+#About .date{
+    margin-top:55px;
+    margin-left:25px;
+    margin-right:25px;
+    padding:25px;
+    background-color: #000;
+    border-radius:15px;
+    color:#FAED26;
+    text-align: center;
+    text-transform: uppercase;
+    font-size:35px;
+    letter-spacing:1px;
+    line-height:60px;
+    animation: pop 1s infinite;
+    transition: background-color 1s forwards;
+    transition: color 1s forwards;
+}
+@keyframes pop{
+    0%{
+        color:#FAED26;
+        background-color: #000;
+    }
+    100%{
+        color:#000;
+        background-color: #FAED26;
+    }
+}
+#About .date h3{
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*End of About Section*/
 /*Start of Category Section*/
@@ -136,10 +161,97 @@ color:#FAED26;
     font-size:50px;
     font-family: 'Teko', sans-serif;
 }
+#rules .details{
+    display:flex;
+    justify-content: space-between;
+}
+#rules .details .col-1{
+    
+    margin-left:10px;
+    font-size: 22px;
+    line-height:35px;
+    
+}
+#rules .details .col-2{
+    
+    margin-left:100px;
+    margin-right: 10px;
+    font-size: 22px;
+    line-height:35px;
+}
+
 /*End of Rules Section*/
+/*Start of Route Section*/
+#route .title h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:50px;
+    font-size:50px;
+    font-family: 'Teko', sans-serif;
+}
+#route img{
+    width:1200px;
+    height:500px;
+    border:2px solid;
+    margin-left:30px;
+    margin-right:25px;
+}
+#route .details{
+    margin-top:50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#route .details .col-1,#route .details .col-2{
+    border:2px solid;
+    padding:25px;
+    background-color: #000;
+    border-radius:15px;
+}
+#route .details .col-2{
+    width:450px;
+}
+#route .details .col-1 h3,#route .details .col-2 h3{
+    font-family: 'Teko', sans-serif;
+    font-size:50px;
+    color: #FAED26;
+    letter-spacing: 2px;
+    text-align: center;
+}
+#route .details .col-1 ul li,#route .details .col-2 ul li{
+    color: #FAED26;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    list-style: none;
+    text-align: center;
+}
+#route .details .col-2 ul li{
+    line-height: 45px;
+}
+/*End of Route Section*/
+/*Start of Footer Section*/
+#registration{
+    text-align:center;
+    margin-top:100px;
+}
+#registration .btn a{
+    
+    background-color:#000;
+    text-decoration: none;
+    color: #FAED26;
+    padding:25px;
+    font-size: 22px;
+    transition: color 1s forwards;
+}
+#registration .btn a:hover{
+    color:#000;
+    background-color: #FAED26;
+    border: 2px solid;
+}
+/*End of Route Section*/
 /*Start of Footer Section*/
 #Footer{
-    margin-top:680px;
+    margin-top:80px;
     background-color: #000;
     opacity:0.9;
 
