@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&family=Jacques+Francois+Shadow&family=Londrina+Sketch&family=Nunito:wght@300;400;500;600;700&family=Orbitron:wght@400;500&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Teko:wght@400;500;600;700&family=Zen+Dots&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Glegoo:wght@400;700&family=Jacques+Francois+Shadow&family=Londrina+Sketch&family=Nunito:wght@300;400;500;600;700&family=Orbitron:wght@400;500&family=Poppins:wght@400;500&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Teko:wght@400;500;600;700&family=Zen+Dots&display=swap'); 
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 }
-
+body{
+    background-color: #FAED26;
+}
 
 /*Start of Header Section*/
 #header{
@@ -14,6 +16,7 @@
     justify-content:space-between;
     background-color: #000;
     border:2px solid;
+    
 }
 .nav-1{
     flex-basis:41%;
@@ -66,29 +69,74 @@ nav li a:hover{
 
 
 /*End of Header Section*/
-
-/*Start of About Section*/
-#About {
-    background-color: #FAED26;
-    position:absolute;
+#title{
+    text-transform: uppercase;
+    text-align: center;
+    
 }
-#About .row p{
-    
-    
-    
+#title h1{
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 100px;
+}
+/*Start of About Section*/
+#About h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:50px;
+    font-size:50px;
+    font-family: 'Teko', sans-serif;
+}
+#About p{
     color:#000;
-    position:relative;
-    margin-right:75px;
-    margin-left:75px;
     margin-top:25px;
-    margin-bottom:25px;
-    font-size:20px;
+    font-size:18px;
     font-weight:500;
     font-family: 'Arial';
     line-height:30px;
-    text-align:justify;
+    text-align:center;
 }
 /*End of About Section*/
+/*Start of Category Section*/
+#category h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:50px;
+    font-size:50px;
+    font-family: 'Teko', sans-serif;
+}
+#category .cards{
+    margin-top:50px;
+    display:flex;
+    justify-content: space-around;
+}
+#category .cards .card-1,#category .cards .card-2,#category .cards .card-3{
+    border:2px solid;
+    padding:25px;
+    background-color: #000;
+    border-radius:15px;
+}
+#category .cards .card-1 h2,#category .cards .card-2 h2,#category .cards .card-3 h2{
+    color:#FAED26;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    font-size:35px;
+    letter-spacing:1px;
+}
+#category .cards .card-1 p1,#category .cards .card-2 p1,#category .cards .card-3 p1{
+color:#FAED26;
+}
+/*End of Category Section*/
+/*Start of Rules Section*/
+#rules .title h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top:50px;
+    font-size:50px;
+    font-family: 'Teko', sans-serif;
+}
+/*End of Rules Section*/
 /*Start of Footer Section*/
 #Footer{
     margin-top:680px;
