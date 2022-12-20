@@ -65,16 +65,84 @@ nav li a:hover{
 
 /*End of Header Section*/
 #title{
-    text-transform: uppercase;
-    text-align: center;
+    display:flex;
+    justify-content: space-around;
     
 }
-#title h1{
-    font-family: 'Alfa Slab One', cursive;
+#title .img-1 img{
+    position: relative;
+    border:1px solid;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 75px;
+    width:100px;
+    height:100px;
+    
+   
+}
+#title .img-1 p{
+    font-size:25px;
+    font-weight:400;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+#title .img-2 img{
+    position: relative;
+    border:1px solid;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: 65px;
+    width:100px;
+    height:100px;
+    
+   
+}
+#title .img-2 p{
+    font-size:25px;
+    font-weight:400;
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+}
+#title .content h1{
+    text-align: center;
+   
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
     font-weight: 400;
-    font-size: 100px;
+    font-size: 130px;
+    letter-spacing: 5px;
+    
+}
+#title .content .line-1{
+    color:#fff;
+    text-shadow:4px 4px 10px rgba(0,0,0,0.5);
+}
+#title .content .line-2{
+    margin-top:-65px;
+    margin-left:-220px;
+    color:rgb(117, 12, 122);
+    text-shadow:4px 4px 10px rgba(0,0,0,0.5);
+}
+#title .content .line-3{
+    margin-top:-65px;
+    margin-left:40px;
+    color:rgb(250, 140, 6);
+    text-shadow:4px 4px 10px rgba(0,0,0,0.5);
+}
+#title .content .line-4{
+    position:absolute;
+    margin-top:-290px;
+    margin-left:300px;
+    transform: rotate(-90deg);
+    color:rgb(45, 122, 7);
+    font-size: 90px;
+    text-shadow:4px 4px 10px rgba(0,0,0,0.5);
 }
 /*Start of About Section*/
+#About{
+    margin-top:80px;
+    
+}
 #About h1{
     text-transform: uppercase;
     text-align: center;
@@ -96,31 +164,23 @@ nav li a:hover{
     margin-left:25px;
     margin-right:25px;
     padding:25px;
-    background-color: #000;
+    background-color: rgba(42, 0, 251, 0);
     border-radius:15px;
-    color:#FAED26;
     text-align: center;
     text-transform: uppercase;
     font-size:35px;
     letter-spacing:1px;
     line-height:60px;
-    animation: pop 1s infinite;
-    transition: background-color 1s forwards;
-    transition: color 1s forwards;
-}
-@keyframes pop{
-    0%{
-        color:#FAED26;
-        background-color: #000;
-    }
-    100%{
-        color:#000;
-        background-color: #FAED26;
-    }
+    
 }
 #About .date h3{
+    background: linear-gradient(to right, #e70c0ce7,
+    #f98007, #eb0606cb, #db8010); 
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /*End of About Section*/
 /*Start of Category Section*/
 #category h1{
@@ -142,7 +202,7 @@ nav li a:hover{
     border-radius:15px;
 }
 #category .cards .card-1 h2,#category .cards .card-2 h2,#category .cards .card-3 h2{
-    color:#FAED26;
+    color:#00defc;
     text-align: center;
     font-family: 'Teko', sans-serif;
     text-transform: uppercase;
@@ -150,7 +210,7 @@ nav li a:hover{
     letter-spacing:1px;
 }
 #category .cards .card-1 p1,#category .cards .card-2 p1,#category .cards .card-3 p1{
-color:#FAED26;
+color:#00e0f0;
 }
 /*End of Category Section*/
 /*Start of Rules Section*/
