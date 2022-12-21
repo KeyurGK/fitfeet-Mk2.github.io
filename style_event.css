@@ -72,7 +72,7 @@ nav li a:hover{
 }
 #title .img-1 img{
     position: relative;
-    border:1px solid;
+    border:2px solid;
     border-radius: 50%;
     margin-top: 150px;
     margin-left: 75px;
@@ -89,7 +89,7 @@ nav li a:hover{
 }
 #title .img-2 img{
     position: relative;
-    border:1px solid;
+    border:2px solid;
     border-radius: 50%;
     margin-top: 150px;
     margin-left: 65px;
@@ -160,26 +160,33 @@ nav li a:hover{
     line-height:30px;
     text-align:center;
 }
-#About .date{
-    margin-top:55px;
-    margin-left:25px;
-    margin-right:25px;
-    padding:25px;
-    background-color: rgba(42, 0, 251, 0);
-    border-radius:15px;
-    text-align: center;
-    text-transform: uppercase;
-    font-size:35px;
-    letter-spacing:1px;
-    line-height:60px;
+#About .row-2{
+    display:flex;
+    flex-direction: column;
+    
     
 }
-#About .date h3{
-    background: linear-gradient(to right, #e70c0ce7,
-    #d34040, #eb0606cb, #ff0505); 
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+#About .row-2 .date-1,#About .date-2{
+    margin-top:10px;
+    align-self: center;
+   
+    width:650px;
+    padding:25px;
+    background-color: rgba(156, 5, 5, 0.993);
+    border-radius:15px;
+    text-transform: uppercase;
+    font-size:20px;
+    letter-spacing:1px;
+    line-height:30px;
+    
+}
+#About .date-1 .title,#About .date-2 .title{
+    text-align:center;
+}
+#About .date-1 h3,#About .date-2 h3{
+    color:#fff;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow:2px 2px 5px rgba(0,0,0,0.3);
 }
 
 /*End of About Section*/
@@ -298,10 +305,13 @@ color:#00e0f0;
 }
 #registration .btn a{
     
-    background-color:#000;
+    background-color:rgb(211, 16, 16);
     text-decoration: none;
-    color: #FAED26;
+    color: #ffffff;
     padding:25px;
+    border: 2px solid white;
+    font-weight: bolder;
+    border-radius: 50px;
     font-size: 22px;
     transition: color 1s forwards;
 }
@@ -326,6 +336,10 @@ color:#00e0f0;
     width:50px;
     height:50px;
     cursor:pointer;
+
+}
+#Footer .row-2 img:hover{
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.2);;
 }
 #Footer .row-2  p{
     color:#fff;
