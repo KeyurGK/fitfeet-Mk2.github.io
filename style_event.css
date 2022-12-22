@@ -456,16 +456,14 @@ color:#00e0f0;
         
         
     }
-    #About .row-2 .gif img{
-        margin-left: 25px;
-    }
+   
     #category .cards{
         margin-top:50px;
         display:flex;
         justify-content: space-around;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-left: 20px;
+        
         
     }
     #category .cards .card-2,#category .cards .card-3{
