@@ -381,6 +381,16 @@ color:#00e0f0;
 }
 /*Endof Footer Section*/
 @media only screen and (max-width:700px){
+    nav{
+        margin-top: 0px;
+    }
+    nav li{
+        margin-left:0px;
+    }
+    nav li a{
+        font-size:20px;
+        margin-left: 5px;
+    }
     #title{
         display: block;
     }
@@ -490,10 +500,14 @@ color:#00e0f0;
     }
    
     #Footer .row-2{
-        margin-left: 10px;
+        margin-left: 40px;
+        flex-direction: column;
         width:100%;
     }
+    #Footer .row-2 .icons{
+        margin-left: 40px;
+    }
     #Footer .row-2 p{
-        margin-left: 90px;
+        margin-left: 30px;
     }
 }
