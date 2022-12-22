@@ -7,7 +7,7 @@
 }
 body{
     background-color: #faec2627;
-    
+   
 }
 
 /*Start of Header Section*/
@@ -16,7 +16,7 @@ body{
     flex-wrap:wrap;
     justify-content:space-around;
     background-color: #000;
-    border:2px solid;
+    border:5px solid #FAED26;
     
 }
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Outline&family=Glegoo:wght@400;700&family=Jacques+Francois+Shadow&family=Londrina+Sketch&family=Nunito:wght@300;400;500;600;700&family=Orbitron:wght@400;500&family=Poppins:wght@400;500&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Teko:wght@400;500;600;700&family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bungee+Outline&family=Glegoo:wght@400;700&family=Jacques+Francois+Shadow&family=Londrina+Sketch&family=Nunito:wght@300;400;500;600;700&family=Orbitron:wght@400;500&family=Poppins:wght@400;500&family=Rampart+One&family=Rubik+80s+Fade&family=Rubik+Distressed&family=Teko:wght@400;500;600;700&family=Zen+Dots&display=swap');
 *{
     margin:0;
     padding:0;
@@ -12,7 +12,7 @@
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
-    
+    border: 6px solid #FAED26;
     z-index:50;
     background: #000;
     
@@ -72,16 +72,17 @@ nav li a:hover{
 /*End of Header Section*/
 #event{
     position:absolute;
-    top:520px;
-    
+    top:540px;
+    background-color:#ff0000;
     z-index:100;
     width:100%;
-    border:2px solid #FAED26;
+    border:2px solid #ffffff;
 }
+
 #event .btn{
     position:relative;
-    
-    color:#FAED26;
+    margin-left: 475px;
+    color:#ffffff;
     font-size:18px;
     text-transform: uppercase;
     text-decoration:none;
@@ -134,6 +135,8 @@ nav li a:hover{
 
 #Cover{
     border:0.01px solid;
+    border-left: 5px solid #FAED26;
+    border-right: 5px solid #FAED26;
     height:410px;
     background-image: url(./images/image-1a.jpg);
     background-size: cover;
@@ -161,6 +164,7 @@ nav li a:hover{
     position:relative;
     z-index:1;
     background-size: cover;
+    border: 5px solid #FAED26;
 }
 #About::after{
     content:'';
@@ -201,7 +205,7 @@ nav li a:hover{
     color:#ab15d8;
 }
 .row .col-2{
-    margin-top:35px;
+   
     flex-basis:50%;
 }
 .about-text p span{
@@ -230,10 +234,11 @@ nav li a:hover{
    text-decoration:none;
    color:yellow;
    margin-left:175px;
+   
 }
 .row .col-2 .btn{
     position:relative;
-    margin-bottom:10000px;
+   
     color:#ffffff;
     border:2px solid #fdfdfd;
     background-color: #ff0000;
@@ -253,7 +258,8 @@ nav li a:hover{
 #Activities{
     background-color: #000;
     opacity:0.9;
-    
+    border: 5px solid #FAED26;
+    height:568px;
 }
 #Activities .row{
     display:flex;
@@ -263,8 +269,7 @@ nav li a:hover{
 
 #Activities .row .col-1{
     flex-basis:60%;
-    margin-top:120px;
-    padding-top:35px;
+    padding-top:px;
     padding-right:60px;
     display:flex;
     flex-direction:column;
@@ -275,7 +280,7 @@ nav li a:hover{
 #Activities .row .col-1 .row-1 img{
     width:450px;
     height:250px;
-    
+    border:15px solid rgb(46, 220, 7)
 }
 
 #Activities .row .col-1 .row-2{
@@ -287,10 +292,10 @@ nav li a:hover{
 }
 #Activities .row .col-1 .row-2 img{
     
-    width:220px;
+    width:230px;
     height:150px;
     margin-left:10px;
-   
+    border:10px solid rgb(16, 238, 208);
     transition:transform 2s linear;
 
 }
@@ -299,7 +304,7 @@ nav li a:hover{
 }
 #Activities .row .col-2{
     flex-basis:30%;
-    margin-top:150px;
+    margin-top:120px;
     margin-bottom:100px;
    
     display:flex;
@@ -312,13 +317,13 @@ nav li a:hover{
 #Activities .row .col-2 div h3{
     margin-left:10px;
     margin-top:5px;
-    color:#FAED26;
+    color:#963cce;
     font-size:20px;
     font-family: 'Orbitron', sans-serif;
     font-weight:400;
 }
 #Activities .row .col-2 div .fa-arrows-spin{
-    color:#f7f7f7;
+    color:#FAED26;
 }
 @keyframes scale-1{
     0%{
@@ -358,19 +363,20 @@ nav li a:hover{
 /*Start of Training Section*/
 #Training{
     height:568px;
+    border: 5px solid #FAED26;
     background-image: url(./images/image-13.jpg);
     background-size:contain;
     background-repeat:no-repeat;
     position:relative;
     z-index:1;
-    object-fit:cover;
+    background-size: cover;
 }
 #Training::after{
     content:'';
     position:absolute;
     left:0;
     top:0;
-    background: linear-gradient(to left,rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.7)80%,rgba(0,0,0,0.7) 80%,rgba(0,0,0,0.7) 100%);
+    background: linear-gradient(to bottom,rgba(0,0,0,0.5) 0%,rgba(0,0,0,1)80%,rgba(0,0,0,1) 80%,rgba(0,0,0,0.7) 100%);
     height:100%;
     width:100%;
     z-index:-1;
@@ -378,11 +384,11 @@ nav li a:hover{
 #Training .row{
     
     position:relative;
-    top:40%;
+    top:45%;
    
 }
 #Training .row .row-1 h1{
-    color:#FAED26;
+    color:#ffffff;
     font-family: 'Rubik 80s Fade', cursive;
     font-weight:400;
     font-size:70px;
@@ -396,8 +402,8 @@ nav li a:hover{
 }
 #Training .row .row-2 ul li{
     list-style: none;
-    color:#FAED26;
-    font-family: 'Rubik 80s Fade', cursive;
+    color:#c300ff;
+    font-family: 'Rampart One', cursive;
     font-weight:400;
     font-size:30px;
     letter-spacing: 1px;
@@ -416,9 +422,10 @@ nav li a:hover{
  }
  #Training .row .row-3 .btn{
      position:relative;
-     margin-bottom:10000px;
-     color:#FAED26;
-     border:2px solid #FAED26;
+     
+     color:#ffffff;
+     border:2px solid #ffffff;
+     background-color: #ff0000;
      font-size:18px;
      text-transform: uppercase;
      font-weight:500;
@@ -427,6 +434,7 @@ nav li a:hover{
  }
  #Training .row .row-3 .btn:hover{
      color:#000;
+     border:2px solid #000;
      background-color: #FAED26;
       
   }
@@ -435,7 +443,8 @@ nav li a:hover{
 #Gallery{
     background-color: #000;
     opacity:0.9;
-
+border:5px solid #FAED26;
+height:568px;
    
   }
 #Gallery .row{
@@ -472,8 +481,9 @@ nav li a:hover{
     position:relative;
     margin-left:600px;
     bottom:50px;
-    color:#FAED26;
-    border:2px solid #FAED26;
+    color:#ffffff;
+    border:2px solid #ffffff;
+    background-color: #ff0000;
     font-size:18px;
     text-transform: uppercase;
     font-weight:500;
@@ -482,7 +492,7 @@ nav li a:hover{
     
 }
 #Gallery .btn:hover{
-   color:#46344e;
+   color:#000000;
    background-color: #FAED26;
     
 }
@@ -492,7 +502,8 @@ nav li a:hover{
 #Footer{
     background-color: #000;
     opacity:0.9;
-    
+    border: 5px solid #FAED26;
+    height:568px;
 
 }
 #Footer .row-1{
@@ -500,8 +511,8 @@ nav li a:hover{
     display:flex;
     flex-wrap:wrap;
     justify-content:space-around;
-    padding-top:10px;
-    height:500px;
+   height:500px;
+    
     
 }
 #Footer .row-1 .col-1{
@@ -512,7 +523,7 @@ nav li a:hover{
     
 }
 #Footer .row-1 .col-1 h3{
-    margin-top:120px;
+    margin-top:50px;
     margin-left:190px;
     font-size:45px;
     font-family: 'Zen Dots', cursive;
@@ -521,7 +532,7 @@ nav li a:hover{
 #Footer .row-1 .col-1 form{
     display:flex;
     flex-direction:column;
-    margin-top:10px;
+    margin-top:50px;
 }
 #Footer .row-1 .col-1 form input{
     width:75%;
@@ -561,7 +572,7 @@ nav li a:hover{
 }
 #Footer .row-1 .col-2 .details{
     margin-left:60px;
-    margin-top:100px;
+    margin-top:50px;
     color:#FAED26;
 }
 #Footer .row-1 .col-2 .details .fa-solid{
@@ -572,7 +583,8 @@ nav li a:hover{
 }
 #Footer .row-1 .col-2 .map iframe{
     margin-left:60px;
-    margin-top:10px;
+    margin-top:15px;
+    
 }
 /*Start of Footer Section*/
 
