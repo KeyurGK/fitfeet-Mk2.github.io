@@ -381,6 +381,9 @@ color:#00e0f0;
 }
 /*Endof Footer Section*/
 @media only screen and (max-width:700px){
+    #title{
+        display: block;
+    }
     #title .content h1{
         text-align: center;
         text-transform: uppercase;
@@ -392,7 +395,8 @@ color:#00e0f0;
         
     }
     #title .content{
-        margin-top:50px;
+        margin-top:20px;
+        
     }
     #title .content .line-1{
         color:#fff;
@@ -413,30 +417,35 @@ color:#00e0f0;
     #title .content .line-4{
         position:absolute;
         margin-top:-100px;
-        margin-left:150px;
+        margin-left:250px;
         transform: rotate(-90deg);
         color:rgb(45, 122, 7);
         font-size: 20px;
         text-shadow:4px 4px 10px rgba(0,0,0,0.5);
     }
     #title .img-1 img{
+        position:absolute;
         width:50px;
         height:50px;
-        margin-top:100px;
+        margin-top:200px;
        
     }
     #title .img-2 img{
         width:50px;
         height:50px;
-        margin-top:100px;
-        margin-left:40px;
+        margin-top:25px;
+        margin-left:300px;
     }
     #title .img-1 p{
+        position:absolute;
         font-size:14px;
-        margin-left:60px;
+        margin-left:40px;
+        margin-top:253px;
     }
     #title .img-2 p{
         font-size:14px;
-        margin-left:20px;
+        margin-top:5px;
+        margin-left:250px;
+        
     }
 }
