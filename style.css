@@ -788,11 +788,13 @@ height:100%;
 }
 #Gallery .slider-container{
     margin-left:40px;
+    z-index:100;
 }
 #Gallery .btn{
     font-size:10px;
     margin-left:130px;
     top:-480px;
+    z-index:10000;
 }
 #Footer{
     height:660px;
