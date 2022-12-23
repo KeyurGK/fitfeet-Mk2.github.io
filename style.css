@@ -644,4 +644,27 @@ nav li a:hover{
     
 }
 /*Endof Footer Section*/
-
+@media only screen and (max-width:700px){
+    #header{
+        flex-direction:column;
+    }
+    nav{
+        margin-top:0px;
+    }
+    nav li a{
+        font-size:20px;
+        margin-left:5px;
+        
+    }
+    .logo img{
+        width:100px;
+        height:100px;
+       
+    padding:10px;
+       margin-left:100px;
+       
+    }
+    .nav-2,.nav-1{
+        margin-top:-10px;
+    }
+}
