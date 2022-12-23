@@ -749,13 +749,14 @@ height:100%;
 #Activities .row .col-1 .row-1 img{
     width:250px;
     height:200px;
+    margin-left:35px;
     border:2px solid #49f406
 }
 #Activities .row .col-1 .row-2 img{
     border:2px solid rgb(16, 238, 208);
     width:175px;
     height:125px;
-    margin-left:50px;
+    margin-left:75px;
 }
 #Training{
     height:660px;
@@ -765,7 +766,7 @@ height:100%;
 }
 #Training .row .row-1 h1{
    
-    font-size:20px;
+    font-size:30px;
     margin-top:-200px;
     margin-left:40px;
 }
@@ -802,10 +803,11 @@ height:100%;
 }
 #Footer .row-1 .col-1 h3{
     font-size:20px;
-    margin-left:135px;
+    margin-left:125px;
 }
 #Footer .row-1 .col-1 form{
     margin-top:5px;
+    margin-left:-10px;
 }
 #Footer .row-1 .col-1 form input{
     height:10px;
@@ -813,12 +815,12 @@ height:100%;
 #Footer .row-1 .col-1 form .btn{
     font-size:10px;
     margin-top:0px;
-    margin-left:140px;
+    margin-left:130px;
     padding:5px;
 }
 #Footer .row-1 .col-2{
  margin-top:450px;
- margin-left:-275px;
+ margin-left:-260px;
  
 }
 #Footer .row-1 .col-2 .details p,#Footer .row-1 .col-2 .details i{
@@ -830,12 +832,12 @@ height:100%;
 }
 #Footer .row-2{
     margin-top:175px;
-    margin-left: 40px;
+    margin-left: 30px;
     flex-direction: column;
     width:100%;
 }
 #Footer .row-2 .icons{
-    margin-left: 35px;
+    margin-left: 30px;
 }
 #Footer .row-2 p{
     margin-left: 30px;
