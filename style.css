@@ -683,17 +683,22 @@ height:100%;
         margin-top:0px;
     }
     #event{
-        top:630px;
+        top:550px;
         align-self: center;
+        width:350px;
+        margin-left:10px;
     }
     
 #event .btn{
    
-    margin-left: 75px;
-    
-    font-size:10px;
+    margin-left: 20px;
+    padding:20px;
+    font-size:18px;
    
    
+}
+#event .btn span{
+margin-left:150px;
 }
 #About{
     height:660px;
