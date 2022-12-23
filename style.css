@@ -743,11 +743,17 @@ height:100%;
     margin-left:px;
 }
 #Activities .row .col-1{
-    margin-top:-50px;
+    margin-top:-75px;
 }
 #Activities .row .col-1 .row-1 img{
-    width:200px;
+    width:250px;
     height:200px;
     border:2px solid #49f406
+}
+#Activities .row .col-1 .row-2 img{
+    border:2px solid rgb(16, 238, 208);
+    width:175px;
+    height:125px;
+    margin-left:50px;
 }
 }
