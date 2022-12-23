@@ -667,4 +667,25 @@ nav li a:hover{
     .nav-2,.nav-1{
         margin-top:-10px;
     }
+    #Cover .text h5{
+        font-size:22px;
+        line-height:25px;
+    }
+     #Cover .text p{
+        font-size:18px;
+        margin-top:0px;
+    }
+    #event{
+        top:570px;
+        align-self: center;
+    }
+    
+#event .btn{
+   
+    margin-left: 75px;
+    
+    font-size:10px;
+   
+   
+}
 }
