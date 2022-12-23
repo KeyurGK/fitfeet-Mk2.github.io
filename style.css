@@ -87,12 +87,8 @@ nav li a:hover{
     text-transform: uppercase;
     text-decoration:none;
     font-weight:500;
+   padding:10px;
    
-    padding:10px;
-    animation:ping .7s infinite;
-   
-    transition: background-color 1s;
-    transition: color 1s;;
 }
 
 /*Start of Cover Section*/
@@ -106,7 +102,7 @@ nav li a:hover{
     color:transparent;
     font-size:75px;
     line-height:70px;
-    animation:text-reveal .7s forwards;
+    animation:text-reveal .7s infinite;
     
 }
 #Cover .text h5:nth-child(1){
@@ -251,6 +247,7 @@ nav li a:hover{
 .row .col-2 .btn:hover{
     color:#000000;
     background-color: #FAED26;
+    border:2px solid #020202;
      
  }
 /*End of About Section*/
@@ -443,44 +440,81 @@ nav li a:hover{
 #Gallery{
     background-color: #000;
     opacity:0.9;
-border:5px solid #FAED26;
-height:568px;
-   
+    border:5px solid #FAED26;
+    height:568px;
+}
+.slider-container {
+    position: absolute;
+    height: 75%;
+    width: 75%;
+    
+    margin-top:50px;
+    margin-left:160px;
+    
+    position: relative;
+    overflow: hidden;
+    text-align: center;
   }
-#Gallery .row{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content: space-around;
-    height:550px;
+  .menu {
+    position: absolute;
+    left: 0;
+    z-index: 900;
+    width: 100%;
+    bottom: 0;
+  }
+  .menu label {
+    cursor: pointer;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border:2px solid #ffffff;
+    background: rgb(246, 3, 3);
+    border-radius: 50px;
+    margin: 0 0.2em 1em;
+  }
+  .menu label:hover{
+    background: #FAED26;
+    border:2px solid #000;
+  }
+  .slide{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    z-index: 10;
+    padding: 8em 1em 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: left 0s 0.75s;
+  }
+  [id^="slide"]:checked + .slide {
+    left: 0;
+    z-index: 100;
+    transition: left 0.65s ease-out;
+  }
+  .slide-1 {
     
-    
-}
-.card-1 img,.card-2 img,.card-3 img{
-    margin-top:150px;
-    margin-bottom:50px;
-    width:375px;
-    height:250px;
-    border-radius:5px;
-    box-shadow:10px 10px 10px 0px; 
-    cursor:pointer;
-    transition:transform 0.5s linear;
-    z-index:1000;
-}
-.card-3 img:hover,.card-1 img:hover{
-   transform:translateY(10px);
-}
-.card-2 img:hover{
-    transform:translateY(-10px);
-}
+    background-image: url("/images/image-4.jpg");
+  }
+  .slide-2 {
+    background-image: url("/images/image-17.jpg");
+  }
+  .slide-3 {
+    background-image: url("/images/image-16.jpg");
+  }
 #Gallery a{
     text-decoration:none;
     font-size:14px;
+    
    
 }
 #Gallery .btn{
     position:relative;
-    margin-left:600px;
-    bottom:50px;
+    margin-left:570px;
+   top:25px;
+    bottom:0px;
     color:#ffffff;
     border:2px solid #ffffff;
     background-color: #ff0000;
@@ -494,6 +528,7 @@ height:568px;
 #Gallery .btn:hover{
    color:#000000;
    background-color: #FAED26;
+   border:2px solid #000;
     
 }
 /*End of Gallery Section*/
