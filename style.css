@@ -667,6 +667,9 @@ height:100%;
     .nav-2,.nav-1{
         margin-top:-10px;
     }
+    #Cover{
+        height:470px;
+    }
     #Cover .text {
         margin-top:175px;
     }
@@ -679,7 +682,7 @@ height:100%;
         margin-top:0px;
     }
     #event{
-        top:570px;
+        top:630px;
         align-self: center;
     }
     
