@@ -685,7 +685,7 @@ height:100%;
     #event{
         top:550px;
         align-self: center;
-        width:350px;
+        width:340px;
         margin-left:10px;
     }
     
@@ -798,7 +798,7 @@ margin-left:150px;
 #Gallery .btn{
     font-size:10px;
     margin-left:130px;
-    top:-480px;
+    top:-490px;
     z-index:10000;
 }
 #Footer{
